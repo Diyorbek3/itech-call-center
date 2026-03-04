@@ -18,7 +18,7 @@
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Yavin Webpage Title</title>
+    <title>Contact ITECH</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -31,7 +31,6 @@
     <link rel="icon" href="images/favicon.png">
 </head>
 <body>
-    
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
         <div class="container">
@@ -49,30 +48,24 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#header">Biz haqimizda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#details">Details</a>
+                        <a class="nav-link" href="#details">Nega aynan biz?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#services">Kurslar haqida</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="#projects">Loyihalar</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">{{ __('messages.article_details') }}</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                        </ul>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Bolimlar</a>
+                        
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-outline-sm" href="#contact">Contact us</a>
+                    <a class="btn-outline-sm" href="#contact">Aloqaga chiqish</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -220,21 +213,21 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>Services that we offer</h2>
-                        <p>Greatly hearted has who believe. Drift allow green son walls years for blush. Sir margaret drawings repeated recurred exercise laughing may you</p>
-                        <p>Do repeated whatever to welcomed absolute no. Fat surprise although more words outlived</p>
+                        <h2>Kurslarimiz</h2>
+                        <p>Zamonaviy veb-interfeyslar yaratishni o‘rganing. HTML, CSS, JavaScript va zamonaviy frameworklar yordamida tezkor, chiroyli va foydalanuvchiga qulay saytlar ishlab chiqishni o‘zlashtirasiz.</p>
+                        <p>Server tomoni dasturlashni o‘rganing. Ma’lumotlar bazasi, API va xavfsizlik bilan ishlashni amaliy tarzda bajarib, to‘liq web ilovalar yarata olasiz.</p>
                         <ul class="list-unstyled li-space-lg">
                             <li class="d-flex">
                                 <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">And informed shy dissuade property. Musical by</div>
+                                <div class="flex-grow-1">Nazariy bilimlar amaliy mashg‘ulotlar bilan mustahkamlanadi</div>
                             </li>
                             <li class="d-flex">
                                 <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">He drawing savings an. No we stand avoid</div>
+                                <div class="flex-grow-1">Har bir talaba real loyihalar ustida ishlaydi.</div>
                             </li>
                             <li class="d-flex">
                                 <i class="fas fa-square"></i>
-                                <div class="flex-grow-1">Announcing of invita mrore wo tion principle</div>
+                                <div class="flex-grow-1">Bitiruvchilarga portfolio va ishga joylashishda yordam beriladi.</div>
                             </li>
                         </ul>
                     </div> <!-- end of text-container -->
@@ -244,68 +237,68 @@
 
                         <!-- Card -->
                         <div class="card">
-                            <div class="card-icon">
-                                <span class="fas fa-rocket"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Space analysis and planning</h5>
-                            </div>
+                        <div class="card-icon"> 
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png" alt="Python" width="60" style="margin-left: 0px; margin-top: 15px;">
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                        </div>
+</div>
                         <!-- end of card -->
 
                         <!-- Card -->
                         <div class="card">
-                            <div class="card-icon">
-                                <span class="far fa-clock"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Design and color choosing</h5>
-                            </div>
-                        </div>
+                    <div class="card-icon">
+                        <span class="fas fa-laptop" style="margin-left: -9px; margin-top: 10px;" ></span>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Kompyuter savodxonligi</h5>
+                    </div>
+                </div>
                         <!-- end of card -->
 
                         <!-- Card -->
                         <div class="card">
-                            <div class="card-icon">
-                                <span class="far fa-comments"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Materials and delivery</h5>
-                            </div>
+                        <div class="card-icon">
+                            <img src="https://us.123rf.com/450wm/dxinerz/dxinerz1601/dxinerz160103363/51258851-code-seo-web-symbol-vektor-bild-kann-auch-f%C3%BCr-seo-und-entwicklungsdienste-verwendet-werden.jpg?ver=6" alt="Frontend" width="60" style="margin-left: 0px; margin-top: 14px;">
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend</h5>
+                        </div>
+                    </div>
                         <!-- end of card -->
 
                         <!-- Card -->
                         <div class="card">
-                            <div class="card-icon">
-                                <span class="fas fa-tools"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Execute the concept</h5>
-                            </div>
+                        <div class="card-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/12137/12137643.png" alt="Backend" width="60"  style="margin-left: -3px; margin-top: 10px;">
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Backend</h5>
+                        </div>
+                    </div>
                         <!-- end of card -->
 
                         <!-- Card -->
                         <div class="card">
-                            <div class="card-icon">
-                                <span class="fas fa-chart-pie"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Creating great atmosphere</h5>
-                            </div>
+                        <div class="card-icon">
+                            <img src="https://api.removal.ai/download/g3/preview/457ae1e8-c700-4e5c-ab7b-20c04c0e31c8.png" alt="Kyber xavfsizlik" width="110" style="margin-left: -10px; margin-top: 10px;">
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kyber xavfsizlik</h5>
+                        </div>
+                    </div>
                         <!-- end of card -->
 
                         <!-- Card -->
                         <div class="card">
-                            <div class="card-icon">
-                                <span class="far fa-chart-bar"></span>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Evaluation and reporting</h5>
-                            </div>
+                        <div class="card-icon">
+                            <img src="https://api.removal.ai/download/g3/preview/fa264755-c718-4697-b7a7-edc0bee89b93.png" alt="AI Developer" width="110" style="margin-left: -10px; margin-top: -5px;">
                         </div>
+                        <div class="card-body">
+                            <h5 class="card-title">AI Developer</h5>
+                        </div>
+                    </div>
                         <!-- end of card -->
 
                     </div> <!-- end of container -->
@@ -323,9 +316,9 @@
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
                     <div class="text-container">
-                        <h2>A beautiful and well organized office space increases productivity</h2>
-                        <p>On it differed repeated wandered required in. Then girl neat why yet knew rose spot. Moreover property we he kindness greatest be oh striking laughter. In me he at collecting affronting principles apartments. Has visitor law attacks pretend you calling own excited painted. Contented attending</p>
-                        <a class="btn-solid-reg" href="article.html">Get started</a>
+                        <h2>IT karyerangizni shu yerdan boshlang</h2>
+                        <p>IT sohasida muvaffaqiyatga erishish uchun amaliyot va real loyihalar eng muhimdir. Har bir kursimiz sizni nafaqat nazariy bilim bilan, balki ishga tayyor tajriba bilan ta’minlaydi. Mentorlarimiz sizni doimiy qo‘llab-quvvatlaydi va individual yondashuv bilan rivojlanishingizni kafolatlaydi.</p>
+                        <a class="btn-solid-reg" href="article.html">Boshlash</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
@@ -344,8 +337,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Our team of highly skilled designers and interior construction workers can deliver above your level of expections</h4>
-                    <a class="btn-solid-lg" href="#contact">Get quote</a>
+                    <h4>Bizning tajribali dizaynerlar va ichki qurilish mutaxassislari jamoamiz sizning kutganingizdan ham yuqori natijalarni taqdim etadi.</h4>
+                    <a class="btn-solid-lg" href="#contact">Batafsil</a>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -358,7 +351,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Projects we developed</h2>
+                    <h2 class="h2-heading">Loyihalar</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -368,8 +361,8 @@
                     <div class="card">
                         <img class="img-fluid" src="images/project-1.jpg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Office space for banking</h5>
-                            <p class="card-text">Suffer should if waited common person little ans words are needed oh <a class="blue no-line" href="article.html">...Read more</a></p>
+                            <h5 class="card-title">Banklar uchun ofis maydoni</h5>
+                            <p class="card-text">Zamonaviy va funksional ofis, xodimlar uchun qulay ish muhiti yaratildi.<a class="blue no-line" href="article.html">...Batafsil</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -378,8 +371,8 @@
                     <div class="card">
                         <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Planning and design for startup</h5>
-                            <p class="card-text">In to am attended desirous raptures declared diverted confined at collected <a class="blue no-line" href="article.html">...Read more</a></p>
+                            <h5 class="card-title">Startaplar uchun reja va dizayn</h5>
+                            <p class="card-text">Startaplar uchun ijodiy va samarali ish joylarini rejalashtirish va dizayn qilish. <a class="blue no-line" href="article.html">...Batafsil</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -388,8 +381,8 @@
                     <div class="card">
                         <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Colors and materials update</h5>
-                            <p class="card-text">Instantly remaining up certainly to necessary as over walk dull into son <a class="blue no-line" href="article.html">...Read more</a></p>
+                            <h5 class="card-title">Rang va materiallarni yangilash</h5>
+                            <p class="card-text">Ichki makon uchun rang va materiallarni zamonaviylashtirish, estetik va amaliy yechimlar bilan.<a class="blue no-line" href="article.html">...Batafsil</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -398,8 +391,8 @@
                     <div class="card">
                         <img class="img-fluid" src="images/project-4.jpg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Analysis and floor design</h5>
-                            <p class="card-text">Vent new at or happiness commanded daughters as is handsome an <a class="blue no-line" href="article.html">...Read more</a></p>
+                            <h5 class="card-title">Bino tartibi va pollar dizayni</h5>
+                            <p class="card-text">Bino ichki tartibini tahlil qilish va optimal pollar dizaynini ishlab chiqish <a class="blue no-line" href="article.html">...Batafsil</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -408,8 +401,8 @@
                     <div class="card">
                         <img class="img-fluid" src="images/project-5.jpg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Office spaces decoration</h5>
-                            <p class="card-text">Vicinity subjects more words into miss on he over been late pain an only <a class="blue no-line" href="article.html">...Read more</a></p>
+                            <h5 class="card-title">Ofis makonlarini bezash</h5>
+                            <p class="card-text">Ofislarni bezash, qulay va ilhom beruvchi muhit yaratish.<a class="blue no-line" href="article.html">...Batafsil</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -418,8 +411,8 @@
                     <div class="card">
                         <img class="img-fluid" src="images/project-6.jpg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Playground for kinder garden</h5>
-                            <p class="card-text">Match round scale now sex style far times your me past and who now much <a class="blue no-line" href="article.html">...Read more</a></p>
+                            <h5 class="card-title">Bolalar maydonchasi</h5>
+                            <p class="card-text">Bolalar bog‘chalari uchun xavfsiz va qiziqarli o‘yin maydonchalari loyihasi. <a class="blue no-line" href="article.html">...Batafsil</a></p>
                         </div>
                     </div>
                     <!-- end of card -->
@@ -501,21 +494,21 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h2>Contact us for a quote using the following form</h2>
+                        <h2>Itech academyga aloqaga chiqish</h2>
 
                         <!-- Contact Form -->
                         <form>
                             <div class="form-group">
-                                <input type="text" class="form-control-input" placeholder="Name" required>
+                                <input type="text" class="form-control-input" placeholder="Ismingiz" required>
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control-input" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control-textarea" placeholder="Message" required></textarea>
+                                <textarea class="form-control-textarea" placeholder="Xabar" required></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">Submit</button>
+                                <button type="submit" class="form-control-submit-button">Yuborish</button>
                             </div>
                         </form>
                         <!-- end of contact form -->
@@ -533,15 +526,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-col first">
-                        <h6>About Website</h6>
-                        <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day his are unreserved indulgence. Him hard find read are you</p>
+                        <h6>Website haqida</h6>
+                        <p class="p-small">iTech Academy web-sayti orqali kurslar, yo‘nalishlar va loyihalar haqida barcha ma’lumotlarni topishingiz mumkin. Saytimiz foydalanuvchi uchun qulay va tezkor ishlaydi.</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
-                        <h6>Links</h6>
+                        <h6>Sayt linklari</h6>
                         <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a href="#header">Home</a>, <a href="#details">Details</a>, <a href="#services">Services</a>, <a href="#contact">Contact</a></li>
+                            <li>Muhim: <a href="terms.html">Shartlar va qoidalar</a>, <a href="privacy.html">Maxfiylik siyosati</a></li>
+                            <li>Foydali: <a href="#">Rang tanlash</a>, <a href="#">Ikonka kutubxonasi</a>, <a href="#">Illustratsiyalar</a></li>
+                            <li>Menu: <a href="#header">Bosh sahifa</a>, <a href="#details">Kurslar</a>, <a href="#services">Kontakt</a>, <a href="#contact">Aloqaga chiqish</a></li>
                         </ul>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col third">
@@ -583,13 +576,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © <a href="#your-link">Your name</a></p>
+                    <p class="p-small">Copyright © <a href="#your-link">ITECH</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
 
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Distributed By <a href="https://themewagon.com/">Themewagon</a></p>
+                    <p class="p-small">Dizayn <a href="https://themewagon.com/">Themewagon</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
